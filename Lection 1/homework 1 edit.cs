@@ -32,7 +32,8 @@
             string name;
             Console.WriteLine("Input your name");
             name = Console.ReadLine();
-            Console.WriteLine("Hello " + name + " Hello");
+            const string a = "\"";
+            Console.WriteLine("Hello " + a + name + a +" Hello");
 			
 			
 			// част от 6та зад
